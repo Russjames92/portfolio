@@ -20,6 +20,18 @@ header {
   height: auto;
 }
 
+footer {
+  background-color: #000000;
+  margin: none;
+  padding: 40px 40px;
+  height: 80px;
+  color: #181818;
+  text-align: right;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-size: 14px;
+}
+
+/* ---- Russell J. Champlain ---- */
 .logo {
   color: #414141;
   font-family: 'Caviar Dreams';
@@ -28,7 +40,7 @@ header {
   padding: 90px 0 0 80px;
 }
 
-
+/* ---- software developer ---- */
 h2 {
   color: #7a7a7a;
   font-family: 'Courier New', Courier, monospace;
@@ -38,10 +50,12 @@ h2 {
   padding: 0 0 0 80px;
 }
 
+/* ---- space between logo and h2 ---- */
 .logo + h2 {
   margin-top: -5px;
 }
 
+/* ---- gradient horizontal rule ---- */
 .long {
   display: block;
   border: none;
@@ -49,6 +63,7 @@ h2 {
   background: linear-gradient(to right, #e58c00, #bebebe);
 }
 
+/* ---- container for picture and ul ---- */
 .hello {
   background-color: #0b0b0b;
   margin: 40px 160px;
@@ -56,10 +71,12 @@ h2 {
   overflow: auto;
 }
 
+/* ---- text align ---- */
 article {
   text-align: right;
 }
 
+/* ---- Hello, I'm Russell ---- */
 .intro {
   font-size: 40px;
   font-family: 'Oswald Regular';
@@ -67,6 +84,7 @@ article {
   margin: 0;
 }
 
+/* ---- small orange horizontal rule ---- */
 .small {
   display: block;
   border: none;
@@ -74,6 +92,7 @@ article {
   background-color: #e58c00;
 }
 
+/* ---- List styling ---- */
 ul {
   list-style-type: square;
   margin:0 0 1em 15px;
@@ -89,6 +108,14 @@ li {
   margin: 25px 0px;
 }
 
+ol {
+  color: #bebebe;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-size: 24px;
+  margin: 0px 640px;
+}
+
+/* ---- image styling ---- */
 .left {
   float: left;
   margin-right: 10px;
@@ -99,6 +126,7 @@ li {
   margin-left: 10px;
 }
 
+/* ---- main content styling ---- */
 .about {
   background-color: #bebebe;
   margin: none;
@@ -135,13 +163,7 @@ p {
   text-align: center;
 }
 
-ol {
-  color: #bebebe;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-  font-size: 24px;
-  margin: 0px 640px;
-}
-
+/* ---- Links ---- */
 a {
   text-decoration: none;
 }
@@ -149,14 +171,3 @@ a:link {color: #7a7a7a;}
 a:visited {color: white;}
 a:hover {color: #414141;}
 a:active {color: #e58c00;}
-
-footer {
-  background-color: #000000;
-  margin: none;
-  padding: 40px 40px;
-  height: 80px;
-  color: #181818;
-  text-align: right;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-  font-size: 14px;
-}
